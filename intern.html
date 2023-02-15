@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Traffic Light Simulator</title>
+    <style>
+      body {
+        background-image: linear-gradient(to right, red, green , yellow);
+    }
+      h1 {
+        text-align: center;
+        top: 40%;
+        left: 40%;
+        font-size: 60px;
+        font-family: Arial,Helvetica, sans-serif;
+        background: linear-gradient(to right, green, yellow,red);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+      button {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin: 30px;
+        font-size: 30px;
+        color: white;
+      }
+      #red {
+
+        background-color: black;
+      }
+      #green {
+        background-color: black;
+      }
+      #yellow {
+        background-color: black;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Traffic Light Simulator</h1>
+    <button id="red" onclick="handleButtonClick('red')">Red</button>
+    <button id="green" onclick="handleButtonClick('green')">Green</button>
+    <button id="yellow" onclick="handleButtonClick('yellow')">Yellow</button>
+    <script src="traffic-light.js"></script>
+  </body>
+</html>
